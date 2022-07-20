@@ -16,5 +16,5 @@ jobs:
           ghToken: ${{ secrets.WORKFLOWS_TOKEN }}
           templateYmlFile: '.github-scheduled-workflows/example.yml'
           copyEnvVariables: PR_NUMBER
-  env:
-    PR_NUMBER: ${{ github.event.number }}
+    env:
+      PR_NUMBER: ${{ github.event.number }}
