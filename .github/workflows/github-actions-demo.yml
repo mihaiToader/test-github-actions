@@ -14,6 +14,6 @@ jobs:
       - run: echo "🎉 The job will trigger another action in 5 minutes."
       - run: echo "I hope"
       - uses: cardinalby/schedule-job-action@v1
-          with:
-            ghToken: ${{ secrets.WORKFLOWS_TOKEN }}
-            templateYmlFile: '.github-scheduled-workflows/example.yml'
+        with:
+          ghToken: ${{ secrets.WORKFLOWS_TOKEN }}
+          templateYmlFile: '.github-scheduled-workflows/example.yml'
