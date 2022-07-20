@@ -1,5 +1,5 @@
 name: example-cron-action
-'on':
+on:
   schedule:
     - cron: '*/5 * * * *'
 jobs:
