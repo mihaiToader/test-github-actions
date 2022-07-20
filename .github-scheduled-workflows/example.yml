@@ -1,4 +1,4 @@
-name: "example-cron-action"
+name: example-cron-action
 on:
   schedule:
     - cron:  '*/5 * * * *'    # At every 5th minute
