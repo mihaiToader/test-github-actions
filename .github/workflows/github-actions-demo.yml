@@ -19,3 +19,5 @@ jobs:
         run: |
           cd verification-check
           python main.py
+        env:
+          WORKFLOWS_TOKEN: ${{ secrets.WORKFLOWS_TOKEN }}
